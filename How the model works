@@ -1,1 +1,9 @@
+First the dataset is uploaded. Then the dataset is divided into two parts one for dependant variable and other for independant variable. 
 
+Then LinearRegression of sklearn.linear_model is used to ceate a Simple Linear Regression model and fit() method is used to fit into matrix of features. 
+
+Cell no 7 is used to create Polynomial regression model by using PolynomialFeatures of sklearn.preprocessing and once again fit() method is used to fit into matrix of features. Degree = 5 is used. I first used degree = 2, which gaved a exponential curve, which was not highly accurate. Then in each iteration degree is increased by one, after degree = 5 the graph becomes consistent. 
+
+Then in next two cell comparission between Linear regression and Polynomial regression is done. We can easily conclude that in this scenario Polynomial Regression much better option
+
+In last two cell same Level was given as input to check the accuracy of both model, and ultimately the HR team can confirm wether the person is saying truth or bluffing. 
